@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## STACK:
+
+1. React.js + hooks
+2. Typescript
+3. Axios
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -14,33 +20,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+# Description
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+For this task, a tabbed component is implemented that includes a numbered tabbed list. The component has a numbered listing of the most recent Guardian content chosen from three sections of the site: UK News, Football and Travel. Each of these sections has represented by a tab. Data is fetching asynchronously from Guardian Content API. It is doing this on the client-side. This solution runs in the browser alone with no runtime server-side requirements. This web application implements the component approach inherent in React.js. This allows you to add new objects without changing the existing code. When executing asynchronous requests, error handling is provided if the request is not successful. While the data is being received, the download loader executed in pure css is displayed to the user. The application does not use UI libraries such as antd, material ui and others.
